@@ -91,7 +91,6 @@ li a {
 }
 
 main section {
-    height: 100%;
     background-color: #fff;
     display: grid;
     place-items: center;
@@ -99,7 +98,7 @@ main section {
 
 section .article {
     width: 50%;
-    height: 50%;
+    margin: 100px 0;
     padding: 50px;
     overflow: hidden;
     background-color: #ecf0f1;
