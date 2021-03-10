@@ -27,7 +27,7 @@ function displayAbout() {
     article_header_photo.innerText = "This is us:"
     article_header_photo.classList.add('article_header')
     const article_content_photo = document.createElement('div')
-    article_content_photo.innerHTML = `<img src="../dist/assets/images/family.png" alt="">`
+    article_content_photo.innerHTML = `<img src="./dist/assets/images/family.png" alt="">`
     article_content_photo.classList.add('article_content_photo')
 
     article.appendChild(article_header_photo)

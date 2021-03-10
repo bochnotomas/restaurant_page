@@ -13,7 +13,7 @@ function createHeader() {
     //header
     const header = document.createElement('header')
     const nav = document.createElement('nav')
-    nav.innerHTML = `<img src="../dist/assets/images/restaurant-pngrepo-com.png" alt="">`
+    nav.innerHTML = `<img src="./dist/assets/images/restaurant-pngrepo-com.png" alt="">`
     const nav_ul = document.createElement('ul')
     nav_ul.innerHTML = `<li><a href="" id="menu">Menu</a></li><li><a href="" id="contact">Contact</a></li><li><a href="" id="about">About Us</a></li>`
     const slogan = document.createElement('section')
