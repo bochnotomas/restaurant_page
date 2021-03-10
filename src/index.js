@@ -1,6 +1,7 @@
 import pageLoad from './modules/page_load'
 import displayMenu from './modules/display_menu'
 import displayContact from './modules/display_contact'
+import displayAbout from './modules/display_about'
 
 function homePage() {
     //homePage build load
@@ -25,7 +26,9 @@ function homePage() {
 
     aboutUs.addEventListener('click', (e) => {
         e.preventDefault()
-        console.log(aboutUs)
+        displayAbout()
+        const contact_section = document.querySelector('#contact_section')
+        contact_section.scrollIntoView()
     })
 }
 

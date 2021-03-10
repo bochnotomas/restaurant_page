@@ -121,6 +121,11 @@ section .article {
     place-items: center;
 }
 
+.article .article_content_photo {
+    display: grid;
+    place-items: center;
+}
+
 footer {
     height: 100px;
     background-color: #000;
