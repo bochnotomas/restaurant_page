@@ -1,4 +1,4 @@
-function displayContact() {
+function displayAbout() {
     const main = document.querySelector("main")
     main.innerHTML = ""
     const section = document.createElement('section')

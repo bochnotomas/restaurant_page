@@ -116,6 +116,11 @@ section .article {
     font-size: 1rem;
 }
 
+.article .article_content_map {
+    display: grid;
+    place-items: center;
+}
+
 footer {
     height: 100px;
     background-color: #000;
