@@ -25,7 +25,7 @@ function displayContact() {
     article_header_map.innerText = "Map:"
     article_header_map.classList.add('article_header')
     const article_content_map = document.createElement('div')
-    article_content_map.innerHTML = `<img src="/dist/assets/images/map.jpg" alt="">`
+    article_content_map.innerHTML = `<img src="../dist/assets/images/map.jpg" alt="">`
     article_content_map.classList.add('article_content_map')
 
     article.appendChild(article_header_map)
